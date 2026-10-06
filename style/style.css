@@ -277,24 +277,24 @@ button:focus {
 }
 
 .centeredHeader {
-	font-size:5vw; 
+	font-size:5vw;
 	text-align:center;
 	line-height:4rem;
 }
 
 .centeredSubHeader {
-	font-size:2.2rem; 
+	font-size:2.2rem;
 	line-height:1em;
 	text-align:center;
 }
 
 .centeredSubSubHeader {
-	font-size:1.4rem; 
+	font-size:1.4rem;
 	text-align:center;
 }
 
 #buttonCont {
-	position:absolute; 
+	position:absolute;
 	left:50%;
 	width:310px;
 	margin-left:-8px;
@@ -324,13 +324,13 @@ button:focus {
 
 @media only screen and (min-device-width:320px) and (max-device-width:600px) {
 	.centeredHeader {
-		font-size:2rem; 
+		font-size:2rem;
 		text-align:center;
 		line-height:0.6rem;
 	}
 
 	.centeredSubHeader {
-		font-size:1rem; 
+		font-size:1rem;
 		text-align:center;
 	}
 
@@ -400,7 +400,7 @@ body {
 	padding:0;
 	bottom:15px;
 	position:absolute;
-	left:calc(50% - 124px);
+	left:calc(50% - 8px);
 	transform:translate(-50%, 0%);
 	-webkit-transform:translate(-50%, 0%);
 	-moz-transform:translate(-50%, 0%);
@@ -492,27 +492,6 @@ body {
 	position:absolute;
 	width:100%;
 	bottom:0px;
-}
-
-#androidBadge {
-	position:absolute;
-	height:41px;
-	margin-top:5px;
-	left:calc(50% - 66px);
-	transform:translate(calc(-50% - 4px), -1px);
-	-webkit-transform:translate(calc(-50% - 4px), -1px);
-	-moz-transform:translate(calc(-50% - 4px), -1px);
-	-ms-transform:translate(calc(-50% - 4px), -1px);
-}
-
-#iOSBadge {
-	margin-top:5px;
-	position:absolute;
-	left:calc(50% + 65px);
-	transform:translate(calc(-50% - 4px), 0%);
-	-webkit-transform:translate(calc(-50% - 4px), 0%);
-	-moz-transform:translate(calc(-50% - 4px), 0%);
-	-ms-transform:translate(calc(-50% - 4px), 0%);
 }
 
 #authors {
