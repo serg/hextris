@@ -1,0 +1,8 @@
+{
+  "extends": "@parcel/config-default",
+  "reporters": ["...", "parcel-reporter-static-files-copy"],
+  "transformers": {
+    "src/js/**/*.js": ["@parcel/transformer-raw"],
+    "*.html": ["@parcel/transformer-html"]
+  }
+}

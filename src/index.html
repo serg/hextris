@@ -7,11 +7,11 @@
 		<meta name="apple-itunes-app" content="app-id=903769553"/>
 		<meta name="apple-mobile-web-app-title" content="Hextris">
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="apple-touch-icon" sizes="120x120" href="images/icons/apple-touch-120.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="images/icons/apple-touch-152.png">
-		<link rel="apple-touch-icon" sizes="167x167" href="images/icons/apple-touch-167.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-180.png">
-		<link rel="apple-touch-icon" sizes="512x512" href="images/icons/apple-touch-512.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/static/images/icons/apple-touch-120.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/static/images/icons/apple-touch-152.png">
+		<link rel="apple-touch-icon" sizes="167x167" href="/static/images/icons/apple-touch-167.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/static/images/icons/apple-touch-180.png">
+		<link rel="apple-touch-icon" sizes="512x512" href="/static/images/icons/apple-touch-512.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui"/>
 		<meta property="og:url" content="http://hextris.github.io/hextris/"/>
 		<meta property="og:site_name" content="Hextris"/>
@@ -42,29 +42,7 @@
 		<meta property="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.hextris.hextris">
 		<link rel="icon" type="image/png" href="favicon.ico">
 		<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="style/fa/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="style/style.css">
-		<script type='text/javascript' src="vendor/hammer.min.js"></script>
-		<script type='text/javascript' src="vendor/js.cookie.js"></script>
-		<script type='text/javascript' src="vendor/jsonfn.min.js"></script>
-		<script type='text/javascript' src="vendor/keypress.min.js"></script>
-		<script type='text/javascript' src="vendor/jquery.js"></script>
-		<script type='text/javascript' src="js/save-state.js"></script>
-		<script type='text/javascript' src="js/view.js"></script>
-		<script type='text/javascript' src="js/wavegen.js"></script>
-		<script type='text/javascript' src="js/math.js"></script>
-		<script type='text/javascript' src="js/Block.js"></script>
-		<script type='text/javascript' src="js/Hex.js"></script>
-		<script type='text/javascript' src="js/Text.js"></script>
-		<script type='text/javascript' src="js/comboTimer.js"></script>
-		<script type='text/javascript' src="js/checking.js"></script>
-		<script type='text/javascript' src='js/update.js'></script>
-		<script type='text/javascript' src='js/render.js'></script>
-		<script type='text/javascript' src="js/input.js"></script>
-		<script type='text/javascript' src="js/main.js"></script>
-		<script type='text/javascript' src="js/initialization.js"></script>
-		<script src="vendor/sweet-alert.min.js"></script>
-		<link rel="stylesheet" href="style/rrssb.css"/>
+		<link rel="stylesheet" href="./style/app.css">
 	</head>
 	<body>
 		<canvas id="canvas"></canvas>
@@ -73,10 +51,10 @@
 		<div id="helpScreen" class='unselectable'>
 			<div id='inst_main_body'></div>
 		</div>
-		<img id="openSideBar" class='helpText' src="./images/btn_help.svg"/>
+		<img id="openSideBar" class='helpText' src="/static/images/btn_help.svg"/>
 		<div class="faded overlay"></div>
-		<img id="pauseBtn" src="./images/btn_pause.svg"/>
-		<img id='restartBtn' src="./images/btn_restart.svg"/>
+		<img id="pauseBtn" src="/static/images/btn_pause.svg"/>
+		<img id='restartBtn' src="/static/images/btn_restart.svg"/>
 		<div id='HIGHSCORE'>HIGH SCORE</div>
 		<div id='highScoreInGameText'>
 			<div id='highScoreInGameTextHeader'>HIGH SCORE</div><div id='currentHighScore'>10292</div>
@@ -91,7 +69,7 @@
 				<div class='score'><span class='scoreNum'>3.</span> <div id="3place" style="display:inline;">0</div></div>
 			</div>
 			<div id='bottomContainer'>
-				<img id='restart' src='./images/btn_restart.svg' height='57px'>
+				<img id='restart' src='/static/images/btn_restart.svg' height='57px'>
 				<!-- div id='socialShare'>
 					<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 					<svg width="224.6377px" height="57px"  viewBox="0 0 255 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -140,6 +118,27 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript" src='vendor/rrssb.min.js'></script>
+    <script src="/src/js/vendor/hammer.min.js"></script>
+    <script src="/src/js/vendor/js.cookie.js"></script>
+    <script src="/src/js/vendor/jsonfn.min.js"></script>
+    <script src="/src/js/vendor/keypress.min.js"></script>
+    <script src="/src/js/vendor/jquery.js"></script>
+    <script src="/src/js/vendor/jquery-migrate-3.6.0.min.js"></script>
+    <script src="/src/js/save-state.js"></script>
+    <script src="/src/js/view.js"></script>
+    <script src="/src/js/wavegen.js"></script>
+    <script src="/src/js/math.js"></script>
+    <script src="/src/js/Block.js"></script>
+    <script src="/src/js/Hex.js"></script>
+    <script src="/src/js/Text.js"></script>
+    <script src="/src/js/comboTimer.js"></script>
+    <script src="/src/js/checking.js"></script>
+    <script src="/src/js/update.js"></script>
+    <script src="/src/js/render.js"></script>
+    <script src="/src/js/input.js"></script>
+    <script src="/src/js/main.js"></script>
+    <script src="/src/js/initialization.js"></script>
+    <script src="/src/js/vendor/sweet-alert.min.js"></script>
+    <script src="/src/js/vendor/rrssb.min.js"></script>
 	</body>
 </html>

@@ -1,0 +1,26 @@
+{
+  "name": "hextris",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.1%, last 2 versions, IE 9",
+  "scripts": {
+    "start": "parcel",
+    "build": "npm run clean && parcel build",
+    "prod": "npm run build",
+    "clean": "shx rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/config-default": "^2.16.4",
+    "@parcel/packager-raw-url": "2.16.4",
+    "@parcel/transformer-html": "^2.16.4",
+    "@parcel/transformer-raw": "^2.16.4",
+    "@parcel/transformer-webmanifest": "2.16.4",
+    "parcel": "^2.16.4",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "shx": "^0.4.0"
+  }
+}
