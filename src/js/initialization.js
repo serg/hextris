@@ -148,9 +148,10 @@ function initialize(a) {
 			$('#startBtn').on('mousedown', startBtnHandler);
 		}
 
+		// Chrome makes document-level touchmove passive by default, which ignores preventDefault().
 		document.addEventListener('touchmove', function(e) {
 			e.preventDefault();
-		}, false);
+		}, { passive: false });
 		$(window).resize(scaleCanvas);
 		$(window).unload(function() {
 
