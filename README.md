@@ -3,13 +3,13 @@ Hextris
 
 <img src="images/twitter-opengraph.png" width="100px"><br>
 
-An addictive puzzle game inspired by Tetris. Play it at [www.hextris.io](http://www.hextris.io), or [https://hextris.github.io/hextris](https://hextris.github.io/hextris).
+An addictive puzzle game inspired by Tetris. Play it at [www.hextris.io](https://www.hextris.io), or [https://hextris.github.io/hextris](https://hextris.github.io/hextris).
 
 By:
- - Logan Engstrom ([@lengstrom](http://loganengstrom.com/))
- - Garrett Finucane ([@garrettdreyfus](http://github.com/garrettdreyfus))
- - Noah Moroze ([@nmoroze](http://github.com/nmoroze))
- - Michael Yang ([@themichaelyang](http://github.com/themichaelyang))
+ - Logan Engstrom ([@lengstrom](https://loganengstrom.com/))
+ - Garrett Finucane ([@garrettdreyfus](https://github.com/garrettdreyfus))
+ - Noah Moroze ([@nmoroze](https://github.com/nmoroze))
+ - Michael Yang ([@themichaelyang](https://github.com/themichaelyang))
  
  ## Citation
 Did you use Hextris in your research? Cite us as follows:
@@ -31,7 +31,7 @@ This project is not very actively maintained, as we are all very busy these days
 Hextris was created by a group of high school friends in 2014.
 
 ## Press kit
-http://hextris.github.io/presskit/info.html
+https://hextris.github.io/presskit/info.html
 
 ## License
 Copyright (C) 2018 Logan Engstrom
