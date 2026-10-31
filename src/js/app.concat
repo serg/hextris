@@ -1,0 +1,24 @@
+# Scripts concatenated (in this order) into a single classic script by
+# parcel/transformer-concat.js. Paths are relative to this file.
+vendor/hammer.min.js
+vendor/js.cookie.js
+vendor/jsonfn.min.js
+vendor/keypress.min.js
+vendor/jquery.js
+vendor/jquery-migrate-3.6.0.min.js
+save-state.js
+view.js
+wavegen.js
+math.js
+Block.js
+Hex.js
+Text.js
+comboTimer.js
+checking.js
+update.js
+render.js
+input.js
+main.js
+initialization.js
+vendor/sweet-alert.min.js
+vendor/rrssb.min.js
